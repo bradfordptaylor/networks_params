@@ -12,7 +12,7 @@ Each run is computed using the function 'pers_one_set.m', which calls 'pp_integr
 
 For Figure 7 'pp_integrator_fixed_time.m' was used to integrate the system for a fixed time.
 
-The code that generates the parameters used in all the runs is in generate_paramters.m
+The code that generates the parameters used in all the runs is in generate_parameters.m
 The parameters are saved in the .mat files in the data folder. The names of the files start with "params" (e.g. 'data/params_single_set_fm100.mat'). There is a different file for each plot showing biodiversity in the paper. Once a file is loaded, the parameters and initial conditions in the "params" structure can be accessed in the following way:
 
 [r,phi,beta,m,x0] = params{iSet,:}
